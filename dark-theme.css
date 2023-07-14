@@ -1,0 +1,114 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .theme-switcher {
+    margin-top: 20px;
+  }
+  
+  .visualization {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: #333;
+    border: 1px solid #555;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  .visualization div {
+    width: 4px;
+    margin: 0 1px;
+    background-color: #aaa;
+    transition: height 0.2s;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #aaa;
+    color: #222;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  select,
+  input[type="range"] {
+    margin: 0 10px;
+  }
+  
+  /* Styles for the speed and size bars */
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 150px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #555;
+    outline: none;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #aaa;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background-color: #ccc;
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #aaa;
+    cursor: pointer;
+  }
+  
+  input[type="range"]::-moz-range-thumb:hover {
+    background-color: #ccc;
+  }
+  
+  /* Styles for the dropdown select */
+  select {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #555;
+    color: #eee;
+    cursor: pointer;
+  }
+  
+  select option {
+    background-color: #333;
+  }
+  
